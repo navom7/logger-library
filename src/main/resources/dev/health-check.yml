@@ -1,0 +1,10 @@
+server:
+  port: 8677
+  servlet:
+    context-path: /test
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      path-mapping:
+        health: /health
